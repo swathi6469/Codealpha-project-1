@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.DS_Store
+.matplotlib_cache/
+models/*.joblib
+reports/*.png
+reports/*.txt
+reports/*.csv
+data/*.csv

@@ -1,0 +1,6 @@
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python src/train_model.py
+python run_demo.py
+streamlit run app.py
